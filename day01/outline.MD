@@ -1,24 +1,47 @@
 day01 
 2018.10.29晚上NOIP复赛上课提纲
 
-一、上课流程。（10分钟）
+### 1.分支结构：if，if-else，if-else if-else，注意事项else必须结合if出现
+### 2.循环，for、while 花括号的作用域，分号的坑坑
 
-1.先讲一下上次竞赛的题目
-2.本次课的知识点
-3.本次竞赛中放了相应知识点的题目训练
+### 3.多组输入，两种情况，有没有指定组数。
+- 未指定组数：
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int n;
+	while(cin >> n){
+	    //TODO
+	}
+	return 0;
+}
+```
 
-二、上次竞赛的讲解（30分钟18:40）
+- 指定组数t：
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int t;
+  cin >> t;
+	while(t--){
+	    //TODO
+      
+	}
+	return 0;
+}
+```
 
-三、本次知识点（30分钟19：00）
-1.分支结构：if，if-else，if-else if-else，注意事项else必须结合if出现
-2.循环，for、while 花括号的作用域，分号的坑坑
 
-3.多组输入，两种情况，有没有指定组数。
+### 4.字符串的读入，string的使用。行读取用getline（cin，str）
+```cpp
+string str;
+cin >> str;
+```
 
-4.字符串的读入，string的使用。行读取用getline（cin，str）
 
-5.格式化输出
-i:指定小数位数，cout << fixed << setprecision(4) << x << endl;
-
-ii:指定数字的宽度，cout << setw(8) << fill('0') << x << endl;
+### 5.格式化输出 定义了double x;
+- i:指定小数位数，cout << fixed << setprecision(4) << x << endl;
+- ii:指定数字的宽度，cout << setw(8) << fill('0') << x << endl;
 
